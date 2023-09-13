@@ -34,8 +34,7 @@ insert into enroll(s_email,c_number)
   insert into course(c_number,c_name,room,p_email)
   values('c4','facebook','r1','p3@jmu.edu')
 
---Q2.6
-    /* modify course first because you need to change the p_email in the course before you delete the professor's records
+--Q2.6/* modify course first because you need to change the p_email in the course before you delete the professor's records
 
 update course
 set p_email = 'p3@jmu.edu'
